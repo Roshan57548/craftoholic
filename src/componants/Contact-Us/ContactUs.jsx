@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style/ContactUs.css';
 import Border from './Componant/Border';
-import MapContent from './Componant/Style/MapContent';
+import MapContent from './Componant/MapContent';
 import Form from './Componant/Form';
 const ContactUs = () => {
   return (

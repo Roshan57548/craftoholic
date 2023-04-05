@@ -1,5 +1,5 @@
 import React from 'react'
-import './Style/MapContent';
+import './Style/MapContent.css';
 const MapContent = () => {
   return (
     <div>MapContent</div>
