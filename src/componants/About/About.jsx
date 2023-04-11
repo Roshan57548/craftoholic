@@ -8,11 +8,12 @@ import ArtCraft from './Componant/ArtCraft';
 import Review from './Componant/Review';
 import SmallGallary from './Componant/SmallGallary';
 import Borders from './Content/Border';
+import UtilityOrienteds from './Content/UtilityOriented';
 const About = () => {
   return (
     <div>
       <Border data={Borders}/>
-      <UtilityOriented />
+      <UtilityOriented data={UtilityOrienteds}/>
       <ModernArt />
       <Cards />
       <ArtCraft />
