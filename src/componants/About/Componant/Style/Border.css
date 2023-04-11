@@ -1,5 +1,71 @@
-const Border = { 
-
-};
-
-export default Border;
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet');
+.Border-0 {
+    height: 20vh;
+    background-color: rgb(227, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+}
+.Border-1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Border-2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: -.8rem;
+}
+.links-section{
+    font-family: 'Delicious Handrawn'!important;
+}
+@media (max-width:900px) {
+    .Border-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+    } 
+    .Border-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+}
+/* }
+.about-link-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1.2rem ;
+    font-size: 2.5rem;
+    margin-right: 12rem;
+    font-family: 'Delicious Handrawn', !important;
+}
+.links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    margin-right: 12.5rem;
+    margin-top: -0.8rem;
+    font-family: 'Delicious Handrawn' !important;
+}
+.links-section{
+    display: flex;
+    font-family: 'Delicious Handrawn' !important;
+    border: 2px solid,red !important;
+}
+.links-section:hover{
+    color: aqua;
+}
+.slash{
+    text-decoration:none;
+}  */

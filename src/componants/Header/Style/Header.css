@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet');
 
-/* .navbar-links {
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet');
+*{
+    margin: 0;
+    padding: 0
+}
+.navbar-links {
    display: flex !important;
    width: 50vw;
-   justify-content: center !important;
-   gap: 4rem;
+   justify-content: right !important;
+   gap: 3rem;
 
-} */
+}
+
 .links{
     font-size: 1.14rem !important;
     font-weight: 600 !important;
     font-family: 'Delicious Handrawn' !important;
+    background-color: white !important;
 }
 
 .links:hover{
@@ -18,15 +24,34 @@
 }
 .logo-container-text{
     display: flex !important;
-    
    justify-content: flex-start !important;
-   /* padding-right: 30rem; */
    font-size: 2rem !important;
     font-weight: 600 !important;
     font-family: 'Delicious Handrawn' !important;
+    /* margin-left: 10rem !important; */
 }
 .logo{
     margin-left: 12rem;
     
 }
-
+@media  (max-width:600px )  {
+    .navbar-links {
+        display: none !important;
+     }
+     
+}
+@media  (min-width:600px  ) and (min-width:1000px)  {
+    .navbar-links {
+        display: flex !important;
+   justify-content: right !important;
+   width: 50vw;
+     }
+     .logo-container-text{
+        display: flex !important;
+       justify-content: flex-start !important;
+       font-size: 2rem !important;
+        font-weight: 600 !important;
+        font-family: 'Delicious Handrawn' !important;
+        margin-left: 0rem !important;
+    } 
+}

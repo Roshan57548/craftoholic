@@ -14,6 +14,9 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 const drawerWidth = 240;
 import {useNavigate} from "react-router-dom";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Header(props)
  {
   const navigate = useNavigate();
@@ -38,7 +41,7 @@ function Header(props)
    }
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }} style={{margin:0}} >
       <Typography  variant="h6" sx={{ my: 2 }}style={{fontFamily:'Delicious Handrawn',fontWeight:'600',fontSize:'2rem',}}>
         Art & Craft
       </Typography>
@@ -47,7 +50,7 @@ function Header(props)
         <Button className="links" onClick={Home} sx={{ color: "black"}} style={{display:'flex' ,textAlign:'center',justifyContent:'center',margin:'auto'}}  >Home</Button>
             <Button className="links" onClick={About} sx={{ color: "black"}} style={{display:'flex' ,textAlign:'center',justifyContent:'center',margin:'auto'}} >About Us</Button>
             <Button className="links" onClick={Contact} sx={{ color: "black" }} style={{display:'flex' ,textAlign:'center',justifyContent:'center',margin:'auto'}} >Contact Us</Button>
-            <Button className="links" onClick={Work} sx={{ color: "black" }}style={{display:'flex' ,textAlign:'center',justifyContent:'center',margin:'auto'}}disablePadding>Work</Button>
+            <Button className="links" onClick={Work} sx={{ color: "black" }}style={{display:'flex' ,textAlign:'center',justifyContent:'center',margin:'auto'}}>Work</Button>
       </List>
     </Box>
   );
@@ -56,9 +59,10 @@ function Header(props)
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }} className="mainContainer">
+    
+    <Box sx={{ display: "flex" }} className="mainContainer" style={{margin:0,padding:0}}>
       <CssBaseline />
-      <AppBar component="nav" style={{ background: "#fff" }}>
+      <AppBar component="nav" style={{ background: "#fff"}} >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -74,7 +78,7 @@ function Header(props)
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-            style={{ color: "black" }}
+            style={{ color: "black"}}
           >
             Arts & Crafts
           </Typography>
@@ -83,8 +87,8 @@ function Header(props)
             sx={{ display: { xs: "none", sm: "block" } }}
           >
             <Button className="links" onClick={Home} sx={{ color: "black" }}>Home</Button>
-            <Button className="links" onClick={About} sx={{ color: "black" }}>About Us</Button>
-            <Button className="links" onClick={Contact} sx={{ color: "black" }}>Contact Us</Button>
+            <Button className="links" onClick={About} sx={{ color: "black" }}>About</Button>
+            <Button className="links" onClick={Contact} sx={{ color: "black" }}>Contact</Button>
             <Button className="links" onClick={Work} sx={{ color: "black" }}>Work</Button>
           </Box>
         </Toolbar>
