@@ -1,84 +1,83 @@
-
 import React from "react";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import PinterestIcon from "@mui/icons-material/Pinterest";
-import PhoneIcon from "@mui/icons-material/Phone";
-import EmailIcon from "@mui/icons-material/Email";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/Footer.css";
-
-function Footer() {
+import first from "../../Image/anshaj-craftoholic-logo.png";
+import { Link } from "react-router-dom";
+const Footer = () => {
   return (
-    <footer>
-      <div className="footer-container">
-        <div className="footer-column">
-          <h2>Craftoholic</h2>
-          <p>
-              Arts and crafts evolved from the fixed notions of fundamental
-              ideas to the modern usage of available materials and truthful
-              representation of the existing lifestyles around the place.
-            
-          </p>
-        </div>
-        <div className="footer-column footer-elsewhere">
-          <h2>Elsewhere</h2>
-          <ul>
-            <div className="footer-icon">
-              <FacebookOutlinedIcon />
-              <li>
-                <a href="#">Facebook</a>
-              </li>
-            </div>
-            <div className="footer-icon">
-              <InstagramIcon />
-              <li>
-                <a href="#">Instagram</a>
-              </li>
-            </div>
-            <div className="footer-icon">
-              <PinterestIcon />
-              <li>
-                <a href="#">Pinterest</a>
-              </li>
-            </div>
-            <div className="footer-icon">
-              <TwitterIcon />
-              <li>
-                <a href="#">Twitter</a>
-              </li>
-            </div>
-          </ul>
-        </div>
-        <div className="footer-column">
-          <h2>Our Address</h2>
-          <p>
-            625 @ David Blake Road,
-            <br />
-            Adventureland, LA 14536, USA
-          </p>
-          <div className="footer-icon">
-            <div>
+    <div className="complete">
+      <footer className="container text-center text-lg-start text-dark stylefirst">
+        <section className="d-flex justify-content-between text-white stylesecond"></section>
 
-              <PhoneIcon />
+        <section>
+          <div className="container text-center text-md-start mt-5">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold">
+                  <img className="icon" src={first} alt="First slide" />
+                </h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
+                <p className="main-desc">
+                  We Offer assistane in All the Educational Institutions in
+                  Different Streams like Engineering, Medical, Management, AYUSH
+                  Courses and MBBS from Abroad, Have a Look on Our Colleges.
+                </p>
+              </div>
+
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 policy">
+                <h6 className="text-uppercase fw-bold">Used For</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
+                <p>Birthday Gift</p>
+                <p>Anniversary Gift</p>
+                <p>Friendship Bond</p>
+              </div>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mix">
+                <h6 className="text-uppercase fw-bold">Useful links</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
+                <p>
+                  <Link to="/" className="footer-link">
+                    Home
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/About-Us" className="footer-link">
+                  About Us
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/Gallary" className="footer-link">
+                 Gallary
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/Contact-Us" className="footer-link">
+                  Contact Us
+                  </Link>
+                </p>
+              </div>
+              <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 address">
+                <h6 className="text-uppercase fw-bold">Contact</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
+                <p>
+                  <i className="fas fa-home mr-3"></i> Gorakhpur, Uttar Pradesh, INDIA
+                </p>
+                <p>
+                  <i className="fas fa-envelope mr-3"></i>{" "}
+                  info@gmail.com
+                </p>
+                <p>
+                  <i className="fas fa-phone mr-3"></i> 9389776222
+                </p>
+              </div>
             </div>
-            <div className="footer-address">( 305 ) 533 - 1122</div>
           </div>
-          <div className="footer-icon">
-            <div>
-              
-              <EmailIcon />
-            </div>
-            <div className="footer-address"> admin@example.com</div>
-          </div>
-        </div>
-        <div className="footer-column">
-          <h2>Support</h2>
-          <p>Call us: 1-800-123-4567</p>
-        </div>
+        </section>
+      </footer>
+      <div className="text-center p-3 stylefour">
+      © 2023 Anshaj Craftoholic : Made by AGBIZ
       </div>
-    </footer>
+    </div>
   );
-}
+};
 
 export default Footer;

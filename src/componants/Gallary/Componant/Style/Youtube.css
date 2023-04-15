@@ -1,0 +1,27 @@
+.Youtube {
+  padding-bottom: 80px;
+}
+
+.Youtube-heading-text {
+  border-bottom: 2px solid rgba(0, 159, 177, 0.326);
+  padding-bottom: 10px;
+  color: rgb(53, 53, 53);
+  font-family: "Shantell Sans", cursive;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.Youtube-1 {
+  font-family: "Shantell Sans", cursive;
+  color: rgb(95, 95, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.Youtube-video{
+    padding: 10px;
+    height: 250px;
+}

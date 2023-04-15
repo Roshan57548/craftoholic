@@ -1,76 +1,72 @@
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 80px;
-  background-color: #151515;
-  color: rgb(187, 181, 181);
-  font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap');
+.complete{
+  background-color: rgb(0, 0, 0); 
+  width: 100%;
 }
-.footer-icon {
-  display: flex;
-  margin-bottom: 8px;
+.stylefirst{
+  background-color: rgba(0, 0, 0, 0.961); 
 }
-
-.footer-column {
-  margin-bottom: 20px;
-  width: 22%;
+.stylethird{
+  width: 60px; 
+  background-color: #ffffff; 
+  height: 2px
 }
-
-.footer-column h2 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.stylefour{
+  background-color: rgba(50, 50, 50, 0.89); 
   color: white;
 }
-
-.footer-column ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+.icon{
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
 }
-
-.footer-elsewhere {
-  margin-left: 50px;
-}
-.footer-address {
-  margin-left: 14px;
-}
-
-.footer-column li {
-  margin-left: 14px;
-}
-
-.footer-column li a {
-  color: rgb(187, 181, 181);
+.footer-link{
+  font-family: 'Shantell Sans', cursive;
+  letter-spacing: 1px;
   text-decoration: none;
+  font-size: medium;
+  font-weight: medium;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
 }
-
-@media (max-width: 500px) {
-  .footer-container {
-    flex-direction: column;
-    padding: 40px;
-   
-    
-  }
-
-  .footer-column {
-    width: 100%;
-  }
-  .footer-elsewhere {
-    margin-left: 0;
-  }
-  
+.footer-link:hover{
+  font-size: large;
+  color: rgba(0, 242, 255, 0.838);
+  animation-delay: 0.5s;
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-.footer-container {
-    font-size: 30px;
+.main-desc{
+  font-family: 'Shantell Sans', cursive;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: white;
 }
-    .footer-column {
-    width: 45%;
-  }
-  .footer-column h2 {
-    font-size: 40px;
-  }
+.address p{
+  font-family: 'Shantell Sans', cursive;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: medium;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+}
+.policy p{
+  font-family: 'Shantell Sans', cursive;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: medium;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+}
+.policy h6{
+  color: rgba(0, 242, 255, 0.943);
+  padding-bottom: 15px;
+}
+.address h6{
+  color: rgba(0, 242, 255, 0.943);
+  padding-bottom: 15px;
+}
+.mix h6{
+  color: rgba(0, 242, 255, 0.943);
+  padding-bottom: 15px;
 }
