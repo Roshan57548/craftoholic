@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/Footer.css";
 import first from "../../Image/anshaj-craftoholic-logo.png";
 import { Link } from "react-router-dom";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 const Footer = () => {
   return (
     <div className="complete">
@@ -41,17 +44,17 @@ const Footer = () => {
                 </p>
                 <p>
                   <Link to="/About-Us" className="footer-link">
-                  About Us
+                    About Us
                   </Link>
                 </p>
                 <p>
                   <Link to="/Gallary" className="footer-link">
-                 Gallary
+                    Gallary
                   </Link>
                 </p>
                 <p>
                   <Link to="/Contact-Us" className="footer-link">
-                  Contact Us
+                    Contact Us
                   </Link>
                 </p>
               </div>
@@ -59,14 +62,41 @@ const Footer = () => {
                 <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
                 <p>
-                  <i className="fas fa-home mr-3"></i> Gorakhpur, Uttar Pradesh, INDIA
+                  <i className="fas fa-home mr-3"></i> House no. 64 Bardhaiya
+                  bazar, 272175, Uttar Pradesh
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i>{" "}
-                  info@gmail.com
+                  craftoholicanshaj@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone mr-3"></i> 9389776222
+                  <i className="fas fa-phone mr-3"></i> +917905816973
+                </p>
+                <p>
+                  <span>
+                    <a
+                      href="https://www.instagram.com/anshaj_craftoholic/?igshid=YmMyMTA2M2Y%3D"
+                      target="_blank"
+                    >
+                      <InstagramIcon id="Form-icons" />
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://www.youtube.com/channel/UCXVGNsPzI4D-fB8Mrk5DuLw"
+                      target="_blank"
+                    >
+                      <YouTubeIcon id="Form-icons" />
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://www.pinterest.com/anshaj_craftoholic/?invite_code=6f7846bf52cf43b3a74aa5dd0472d431&sender=634374434920225668"
+                      target="_blank"
+                    >
+                      <PinterestIcon id="Form-icons" />
+                    </a>
+                  </span>
                 </p>
               </div>
             </div>
@@ -74,7 +104,7 @@ const Footer = () => {
         </section>
       </footer>
       <div className="text-center p-3 stylefour">
-      © 2023 Anshaj Craftoholic : Made by AGBIZ
+        © 2023 Anshaj Craftoholic : Made by AGBIZ
       </div>
     </div>
   );

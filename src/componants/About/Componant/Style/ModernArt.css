@@ -1,5 +1,118 @@
-const ModernArt = {
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap");
+.ModernArt{
+    background-image: url('../Images/ArtistBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    width: 100%;
+    height: 600px;
+}
+.ModernArt-1{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.705);
 
-};
-
-export default ModernArt;
+}
+.ModernArt-1-1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModernArt-3{
+    color: rgba(255, 255, 255, 0.228);
+    font-family: "Shantell Sans", cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+.ModernArt-1-2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ModernArt-1-3{
+    color: white;
+}
+.ModernArt-Image-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: aqua; */
+    height: 500px;
+}
+.ModernArt-Image{
+    width: 150px;
+    height: 150px;
+}
+.ModernArt-0{
+    height: 600px;
+    /* background-color: antiquewhite; */
+}
+@media( max-width: 900px) {
+    .ModernArt-3{
+        color: rgba(255, 255, 255, 0.228);
+        font-family: "Shantell Sans", cursive;
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+@media( max-width: 600px) {
+    .ModernArt{
+        background-image: url('../Images/ArtistBanner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+        width: 100%;
+        height: 750px;
+    }
+    .ModernArt-1{
+        width: 100%;
+        height: 750px;
+        background-color: rgba(0, 0, 0, 0.705);
+    
+    }
+    .ModernArt-3{
+        color: rgba(255, 255, 255, 0.228);
+        font-family: "Shantell Sans", cursive;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .ModernArt-Image-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 150px;
+    }
+    .ModernArt-Image{
+        width: 100px;
+        height: 100px;
+    }
+    .ModernArt-0{
+        height: 150px;
+    }
+    .ModernArt-3{
+        
+        color: rgba(255, 255, 255, 0.228);
+        font-family: "Shantell Sans", cursive;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .ModernArt-1-3{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        color: white;
+    }
+    .ModernArt-1-3-1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .ModernArt-11{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+}

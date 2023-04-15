@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet');
-.AboutBorder-0 {
-    background-image: url('../Images/aboutbanner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.ContactBorder-0 {
     margin-top: 50px;
     height: 35vh;
-    background-color: rgba(0, 159, 177, 0.08);
+    background-image: url('../../Images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
  
-.AboutBorder-1{
+.ContactBorder-1{
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: 3rem;
     font-weight: bold;
-    color: white;
 }
 
-.AboutBorder-2{
+.ContactBorder-2{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -28,23 +26,20 @@
     margin-top: 1px;
 }
  
-.AboutBorder-3{
+.ContactBorder-3{
     font-family: 'Delicious Handrawn'!important;
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: none;
     margin-right: 15px;
 }
-.AboutBorder-4{
+.ContactBorder-4{
     font-family: 'Delicious Handrawn'!important;
-    color: rgb(230, 230, 230);
+    color: rgb(44, 44, 44);
     margin-left: 15px;
-}
-.AboutSlash{
-    color: white;
 }
 
 @media (max-width:900px) {
-    .AboutBorder-0 {
+    .ContactBorder-0 {
         height: 30vh;
         background-color: rgb(245, 245, 245);
         display: flex;
@@ -52,14 +47,14 @@
         align-items: center;
         margin-top: 50px;
     }
-    .AboutBorder-1{
+    .ContactBorder-1{
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         font-weight: bold;
     } 
-    .AboutBorder-2{
+    .ContactBorder-2{
         display: flex;
         justify-content: center;
         align-items: center;

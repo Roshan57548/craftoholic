@@ -70,3 +70,11 @@
   color: rgba(0, 242, 255, 0.943);
   padding-bottom: 15px;
 }
+#Form-icons{
+  font-size: 30px;
+  margin-right: 20px;
+  color: white;
+}
+#Form-icons:hover{
+  color: rgb(0, 217, 255);
+}

@@ -13,15 +13,15 @@ const UtilityOriented = (props) => {
           <div className="col-lg-4 col-md-6 col-12 UtilityOriented-2 UtilityOriented-5">
           {props.data.Content_1}
           </div>
-          <div className="col-lg-4 col-md-6 col-12 row UtilityOriented-5">
-            <div className="col-12">
+          <div className="col-lg-4 col-md-6 col-10 row">
+            <div className="col-12 UtilityOriented-5">
             {props.data.Content_2}
             </div>
-            <div className="col-12 UtilityOriented-3 ">
-              <Button variant="contained" >Learn More</Button>
+            <div className="col-12 UtilityOriented-3">
+              <a href="/Contact-Us"><Button variant="contained">Contact Us</Button></a>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 UtilityOriented-5">
+          <div className="col-lg-4 col-md-10 col-10 UtilityOriented-5">
           {props.data.Content_3}
           </div>
         </div>

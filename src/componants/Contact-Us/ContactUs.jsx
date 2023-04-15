@@ -1,14 +1,16 @@
 import React from 'react'
 import './Style/ContactUs.css';
-import Border from './Componant/Border';
-import MapContent from './Componant/MapContent';
+import ContactBorder from './Componant/ContactBorder';
 import Form from './Componant/Form';
+import ContentBorder from './Content/ContentBorder';
+import ContentForm from './Content/ContentForm';
+import MapForm from './Componant/MapForm';
 const ContactUs = () => {
   return (
     <div>
-      <Border />
-      <MapContent />
-      <Form />
+      <ContactBorder data={ContentBorder}/>
+      <Form data={ContentForm}/>
+      <MapForm />
     </div>
   )
 }

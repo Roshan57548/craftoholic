@@ -1,11 +1,11 @@
 import React from "react";
-import "./Style/Border.css";
+import "./Style/ContactBorder.css";
 import { useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Border = (props) => {
+const ContactBorder = (props) => {
   const navigate = useNavigate();
 
   const Moveto = () => {
@@ -13,16 +13,16 @@ const Border = (props) => {
   };
 
   return (
-      <div className="AboutBorder-0">
+      <div className="ContactBorder-0">
         <div className="container">
           <div className="row">
-            <div className="col-12 AboutBorder-1">{props.data.Heading}</div>
-            <div className="col-12 AboutBorder-2">
-              <a className="AboutBorder-3" href="/">
+            <div className="col-12 ContactBorder-1">{props.data.Heading}</div>
+            <div className="col-12 ContactBorder-2">
+              <a className="ContactBorder-3" href="/">
                 {props.data.Links[0].Heading}
               </a>
-              <span className="AboutSlash">/</span>
-              <span className="AboutBorder-4">{props.data.Links[1].Heading}</span>
+              <span className="slash">/</span>
+              <span className="ContactBorder-4">{props.data.Links[1].Heading}</span>
             </div>
           </div>
         </div>
@@ -30,4 +30,4 @@ const Border = (props) => {
   );
 };
 
-export default Border;
+export default ContactBorder;
