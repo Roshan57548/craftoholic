@@ -10,7 +10,7 @@ const Form = (props) => {
       <div className='container'>
         <div className='row Form-11'>
           <div className='col-lg-8 col-md-6 col-12 Form-1 row'>
-            <iframe className='col-12' src="https://www.google.com/maps/embed/v1/place?q=STARWELL+FOUNDATION,+Shahpur,+Gorakhpur,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            <iframe className='col-12' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d629.7075913805583!2d83.0799136857656!3d26.771058476086925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQ2JzE2LjAiTiA4M8KwMDQnNDguNSJF!5e0!3m2!1sen!2sin!4v1681755382589!5m2!1sen!2sin"></iframe>
           </div>
           <div className='col-lg-4 col-md-6 col-12 Form-2 row'>
             <div className='col-12 Form-3 row'>

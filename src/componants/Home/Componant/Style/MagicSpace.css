@@ -1,0 +1,34 @@
+.MagicSpace{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.MagicSpace-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MagicSpace-2 img{
+    width: 600px;
+    height: 600px;
+}
+.MagicSpace-4{
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .MagicSpace-4{
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .MagicSpace{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .MagicSpace-2 img{
+        width: 300px;
+        height: 300px;
+    }
+}

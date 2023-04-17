@@ -2,7 +2,8 @@ import React from "react";
 import "./Style/ModernArt.css";
 import Button from "@mui/material/Button";
 import image from './Images/Artist.jpg';
-const ModernArt = () => {
+import "bootstrap/dist/css/bootstrap.min.css";
+const ModernArt = (props) => {
   return (
     <div className="ModernArt">
       <div className="ModernArt-1">
@@ -18,20 +19,10 @@ const ModernArt = () => {
             <div className="col-lg-6 col-md-8 col-12 ModernArt-1-3-1 row">
               <div className="col-12 ModernArt-1-3-1 row">
                 <div className="col-12 ModernArt-1-3">
-                  <h2>Modern Craft Artist</h2>
+                  <h2>{props.data.Heading}</h2>
                 </div>
                 <div className="col-12 ModernArt-1-3">
-                  One of the most intriguing things about paper craft is the
-                  versatility of the medium. With just a few sheets of paper and
-                  some basic tools, a paper craft artist can create anything
-                  from intricate paper flowers to elaborate three-dimensional
-                  sculptures. The possibilities are truly endless. Paper craft
-                  artists often start with a simple idea or sketch and then work
-                  meticulously to bring that idea to life. They spend hours
-                  cutting, folding, and manipulating paper until they achieve
-                  the desired result. Paper craft requires a great deal of
-                  patience, precision, and attention to detail, but the end
-                  result is always worth the effort.
+                {props.data.Content}
                 </div>
                 <div className="col-12 ModernArt-1-3-1 ModernArt-1-2">
                   <a href="/Gallary">
@@ -39,7 +30,7 @@ const ModernArt = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-12 ModernArt-1-3-1 ModernArt-3">MODERN ART</div>
+              <div className="col-12 ModernArt-1-3-1 ModernArt-3">{props.data.Art}</div>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from '../../Image/anshaj-craftoholic-logo.png';
+import logo from '../../Image/logo.png';
 import './Style/Header.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,7 +14,7 @@ function Header(props) {
         <Navbar.Brand href="/">
           <img
             src={logo}
-            width="80"
+            width="50"
             height="50"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"

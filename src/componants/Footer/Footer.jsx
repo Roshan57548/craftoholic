@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/Footer.css";
-import first from "../../Image/anshaj-craftoholic-logo.png";
+import first from "../../Image/logo.png";
 import { Link } from "react-router-dom";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -67,7 +67,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i>{" "}
-                  craftoholicanshaj@gmail.com
+                  craftoholicanshaj @gmail.com
                 </p>
                 <p>
                   <i className="fas fa-phone mr-3"></i> +917905816973

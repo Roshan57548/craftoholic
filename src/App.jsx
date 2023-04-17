@@ -6,6 +6,7 @@ import Home from './componants/Home/Home';
 import About from './componants/About/About';
 import ContactUs from './componants/Contact-Us/ContactUs';
 import Gallary from './componants/Gallary/Gallary';
+import Apply from './componants/Apply-Now/Apply';
 import './App.css';
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/Contact-Us' element={<ContactUs/>}/>
         <Route path='/Gallary' element={<Gallary />}/>
       </Routes>
+      <Apply />
       <Footer />
       
     </div>

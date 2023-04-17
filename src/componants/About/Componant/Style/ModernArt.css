@@ -56,7 +56,7 @@
         font-weight: bold;
     }
 }
-@media( max-width: 600px) {
+@media( max-width: 800px) {
     .ModernArt{
         background-image: url('../Images/ArtistBanner.jpg');
         background-repeat: no-repeat;
