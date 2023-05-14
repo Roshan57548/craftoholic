@@ -63,7 +63,7 @@ const OurWorks = (props) => {
           console.log(response.data);
           swal("Send", "Your message sent successfully!", "success").then(
             (value) => {
-              location.reload();
+              handleClose();
             }
           );
         })

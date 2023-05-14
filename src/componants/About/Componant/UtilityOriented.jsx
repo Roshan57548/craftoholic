@@ -2,7 +2,9 @@ import React from "react";
 import "./Style/UtilityOriented.css";
 import Button from "@mui/material/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 const UtilityOriented = (props) => {
+  const navigate = useNavigate();
   return (
     <div className="UtilityOriented-0">
       <div className="container">
@@ -18,7 +20,7 @@ const UtilityOriented = (props) => {
             {props.data.Content_2}
             </div>
             <div className="col-12 UtilityOriented-3">
-              <a href="/Contact-Us"><Button variant="contained">Contact Us</Button></a>
+              <a onClick={() => navigate("/Contact-Us")} ><Button variant="contained">Contact Us</Button></a>
             </div>
           </div>
           <div className="col-lg-4 col-md-10 col-10 UtilityOriented-5">

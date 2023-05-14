@@ -27,6 +27,7 @@
 }
  
 .Border-3{
+    cursor: pointer;
     font-family: 'Delicious Handrawn'!important;
     color: black;
     text-decoration: none;

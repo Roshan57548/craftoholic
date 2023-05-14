@@ -29,6 +29,7 @@
 }
  
 .AboutBorder-3{
+    cursor: pointer;
     font-family: 'Delicious Handrawn'!important;
     color: rgb(255, 255, 255);
     text-decoration: none;

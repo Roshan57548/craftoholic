@@ -18,7 +18,7 @@ const ContactBorder = (props) => {
           <div className="row">
             <div className="col-12 ContactBorder-1">{props.data.Heading}</div>
             <div className="col-12 ContactBorder-2">
-              <a className="ContactBorder-3" href="/">
+              <a className="ContactBorder-3" onClick={() => navigate("/")}>
                 {props.data.Links[0].Heading}
               </a>
               <span className="slash">/</span>

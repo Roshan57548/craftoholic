@@ -18,7 +18,7 @@ const Border = (props) => {
           <div className="row">
             <div className="col-12 Border-1">{props.data.Heading}</div>
             <div className="col-12 Border-2">
-              <a className="Border-3" href="/">
+              <a className="Border-3" onClick={() => navigate("/")}>
                 {props.data.Links[0].Heading}
               </a>
               <span className="slash">/</span>

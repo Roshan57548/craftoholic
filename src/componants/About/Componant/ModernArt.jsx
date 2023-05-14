@@ -3,7 +3,9 @@ import "./Style/ModernArt.css";
 import Button from "@mui/material/Button";
 import image from './Images/Artist.jpg';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 const ModernArt = (props) => {
+  const navigate = useNavigate();
   return (
     <div className="ModernArt">
       <div className="ModernArt-1">
@@ -25,7 +27,7 @@ const ModernArt = (props) => {
                 {props.data.Content}
                 </div>
                 <div className="col-12 ModernArt-1-3-1 ModernArt-1-2">
-                  <a href="/Gallary">
+                  <a onClick={() => navigate("/Gallary")}>
                     <Button variant="contained">My Work</Button>
                   </a>
                 </div>
