@@ -7,6 +7,7 @@ import About from './componants/About/About';
 import ContactUs from './componants/Contact-Us/ContactUs';
 import Gallary from './componants/Gallary/Gallary';
 import Apply from './componants/Apply-Now/Apply';
+import NoPage from './componants/404/NoPage'
 import './App.css';
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/About-Us' element={<About/>}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
         <Route path='/Gallary' element={<Gallary />}/>
+        <Route path="*" element={<NoPage></NoPage>} />
       </Routes>
       <Apply />
       <Footer />
